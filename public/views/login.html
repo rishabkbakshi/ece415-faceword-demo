@@ -1,0 +1,23 @@
+<div class="login-container">
+    <div class="video-container">
+        <div class="videoBox">
+            <video id="loginVideo" width="640px" height="480px">Video stream not available.</video>
+        </div>
+        <canvas id="loginCanvas" style="display: none; background: white;">
+        </canvas>
+    </div>
+
+    <div class="info-container">
+        <div class="output-image" style="display:none;">
+            <img id="loginPhoto" height="240px" width="320px" alt="The screen capture will appear in this box.">
+        </div>
+        <button id="loginBtn" class="btn btn-primary" ng-click="captureLoginImage()">LOGIN</button>
+    </div>
+</div>
+
+<div class="nav-buttons">
+    <div class="btn btn-primary" ng-click="returnToHomePage()">Go Back</div>
+    <div class="btn btn-danger" style="margin-left: 50px;" ng-click="clearTrainingData()">Clear Training Data</div>
+    <div class="btn btn-danger" style="margin-left: 50px;" ng-click="clearStorage()">Clear Users</div>
+    <div class="btn btn-primary" style="margin-left: 50px;" ng-click="goToRegisterPage()">Register New User</div>
+</div>

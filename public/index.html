@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>
+        FaceWord Demo
+    </title>
+
+    <link rel="stylesheet" href="styles/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/vendor/all.min.css">
+    <link rel="stylesheet" href="styles/vendor/loading-bar.min.css">
+    <link rel="stylesheet" href="styles/app/main.css">
+</head>
+
+<body ng-app="FaceWord">
+
+    <h1 class="page-header"> FACEWORD DEMO </h1>
+
+    <div ui-view></div>
+
+
+
+
+
+
+
+    <!-- Vendor Scripts -->
+    <script src="scripts/vendor/jquery.min.js"></script>
+    <script src="scripts/vendor/angular.min.js"></script>
+    <script src="scripts/vendor/angular-ui-router.min.js"></script>
+    <script src="scripts/vendor/all.min.js"></script>
+    <script src='scripts/vendor/loading-bar.min.js'></script>
+    <script src='scripts/vendor/socket.io.slim.js'></script>
+    <script src='scripts/vendor/bootstrap.min.js'></script>
+
+    <!-- App Scripts -->
+    <script src="scripts/main.js"></script>
+    <script src="scripts/app/controllers/welcomeCtrl.js"></script>
+    <script src="scripts/app/controllers/registerCtrl.js"></script>
+    <script src="scripts/app/controllers/loginCtrl.js"></script>
+    <script src="scripts/app/controllers/dashboardCtrl.js"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.nav-tabs').tab();
+        });
+    </script>
+</body>
+
+</html>
