@@ -8,7 +8,7 @@ Video Demo Links:
 1) Face Registration process
 https://youtu.be/zpfGQ9xRdHU 
 
-2) Code Explanation:
+2) Backend working:
 https://youtu.be/4WOKT9W731U
 
 Installation Notes:
