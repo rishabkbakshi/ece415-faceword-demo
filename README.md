@@ -11,7 +11,7 @@ https://youtu.be/zpfGQ9xRdHU
 2) Backend working:
 https://youtu.be/4WOKT9W731U
 
-Installation Notes:
+Installation Notes: (will need to clone the openface repo and place it in the root folder)
 - Firstly, at least 2 faces must be trained in order for the classifier to properly work.  
 - Secondly, inside of the openface folder, the user must create 3 folders: demo-images, feat, and aligned.
 - Inside the demo-images folder, the user must create 2 additional folders: test and training.  The folders must be titled exactly as they are typed.
